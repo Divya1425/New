@@ -13,7 +13,7 @@ namespace ChartGettingStarted
         {
             // The root page of your application            
 
-            MainPage = new SamplePage();
+            MainPage = new ChartSample();
         }
 
         protected override void OnStart()

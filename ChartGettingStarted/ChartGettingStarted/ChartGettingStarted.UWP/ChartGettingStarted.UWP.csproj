@@ -11,8 +11,8 @@
     <AssemblyName>ChartGettingStarted.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10586.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
@@ -132,17 +132,6 @@
       <Project>{6fa72e1f-64c5-4108-ac09-83bd2d9b5850}</Project>
       <Name>ChartGettingStarted</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Syncfusion.SfChart.UWP">
-      <HintPath>..\..\packages\Syncfusion.Xamarin.SfChart.15.1.0.41\lib\uap10.0\Syncfusion.SfChart.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfChart.XForms">
-      <HintPath>..\..\packages\Syncfusion.Xamarin.SfChart.15.1.0.41\lib\uap10.0\Syncfusion.SfChart.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfChart.XForms.UWP">
-      <HintPath>..\..\packages\Syncfusion.Xamarin.SfChart.15.1.0.41\lib\uap10.0\Syncfusion.SfChart.XForms.UWP.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

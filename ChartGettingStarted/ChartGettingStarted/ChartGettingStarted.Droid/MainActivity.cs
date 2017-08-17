@@ -6,8 +6,6 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Com.Syncfusion.Charts;
-using Java.Text;
 
 namespace ChartGettingStarted.Droid
 {
@@ -23,7 +21,6 @@ namespace ChartGettingStarted.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
-
         }
     }
 }

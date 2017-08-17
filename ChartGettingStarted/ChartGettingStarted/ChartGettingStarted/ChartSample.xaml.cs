@@ -5,14 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace ChartGettingStarted
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class SamplePage : ContentPage
+    public partial class ChartSample : ContentPage
     {
-        public SamplePage()
+        public ChartSample()
         {
             InitializeComponent();
         }
